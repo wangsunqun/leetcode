@@ -8,7 +8,7 @@ import java.util.Arrays;
  * @author wsq
  * 2021/1/19 11:32
  */
-public class Solution {
+public class Num1480 {
     public static int[] runningSum(int[] nums) {
         for (int i = 1; i < nums.length; i++) {
             nums[i] = nums[i] + nums[i - 1];
